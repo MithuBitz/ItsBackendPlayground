@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("This is fullstack dev");
 });
 
-app.get("/best-places", (req, res) => {
+app.get("/api/best-places", (req, res) => {
   const wondersOfTheWorld = [
     {
       id: 1,
